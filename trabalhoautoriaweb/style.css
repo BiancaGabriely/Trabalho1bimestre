@@ -1,0 +1,74 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+a{
+    color: #C40C0C;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+header{
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+header .link{
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: #555555;
+    width: 1388px;
+    left: 17px;
+    height: 32px;
+
+}
+header p.resumo{
+    font-size: 16px;
+    margin: 20px;
+    color: #555555;
+}
+header h1{
+    font-size: 40px;
+    margin: 20px;
+}
+header p#autor{
+    margin: 25px 20px 10px 20px;
+    font-size: 16px;
+}
+header p.data{
+    margin: 0px 20px 20px 20px;
+    font-size: 12px;
+}
+main{
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.0em;
+}
+main p.p1,.p2,.p3,.p4,.p5{
+    color: #333333;
+}
+main nav{
+    margin: 20px; 
+}
+main nav > ul >li{
+    margin:16px;
+    font-size: 1.1em;
+    color: #A6130A;
+}
+main h2{
+    margin-bottom: 20px;
+}
+main p.citacao{
+    font-size: 1.5em;
+    color: rgb(29,29, 29);
+    font-weight: 500;
+    border-left: 3px solid #A6130A;
+    padding: 10px;
+}
